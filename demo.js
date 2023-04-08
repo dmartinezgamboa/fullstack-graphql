@@ -5,8 +5,14 @@ const typeDefs = gql`
     type User {
         avatar: Avatar
         email: Email
-        friends: [User]
+        friends: [Friend]
+        account: Int
     }
+    
+    type Friend {
+        relation: String
+    }
+    
     type Email {
         server: String
     }
