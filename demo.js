@@ -14,6 +14,7 @@ const typeDefs = gql`
         work_from_home: Boolean
         watches_tv: Boolean
         pets: [Pet]
+        has_bike: Boolean
     }
     
     type Life {
