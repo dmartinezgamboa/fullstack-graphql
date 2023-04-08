@@ -16,6 +16,10 @@ const typeDefs = gql`
         pets: [Pet]
     }
     
+    type Life {
+        length: Int
+    }
+    
     type Friend {
         relation: String
     }
