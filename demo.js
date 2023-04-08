@@ -15,6 +15,12 @@ const typeDefs = gql`
         watches_tv: Boolean
         pets: [Pet]
         has_bike: Boolean
+        albums: [Album]
+    }
+    
+    type Album {
+        artist: String
+        year: Int
     }
     
     type Life {
