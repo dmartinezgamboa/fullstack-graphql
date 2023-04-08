@@ -3,9 +3,12 @@ const { ApolloServer } = require("apollo-server");
 
 const typeDefs = gql`
     type User {
-        email: String
+        email: Email
         avatar: String
         friends: [User]
+    }
+    type Email {
+        server: String
     }
     
     type Query {
