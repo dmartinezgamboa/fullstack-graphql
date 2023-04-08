@@ -10,6 +10,7 @@ const typeDefs = gql`
         has_pants: Boolean
         job: String
         life: Life
+        watches_tv: Boolean
     }
     
     type Friend {
