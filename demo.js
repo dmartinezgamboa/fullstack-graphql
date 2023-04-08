@@ -16,6 +16,7 @@ const typeDefs = gql`
         pets: [Pet]
         has_bike: Boolean
         albums: [Album]
+        apartment: Boolean
     }
     
     type Album {
