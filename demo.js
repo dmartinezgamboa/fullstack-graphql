@@ -13,6 +13,7 @@ const typeDefs = gql`
         life: Life
         work_from_home: Boolean
         watches_tv: Boolean
+        weight: Int
         pets: [Pet]
         has_bike: Boolean
         albums: [Album]
