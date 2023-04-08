@@ -7,7 +7,7 @@ const typeDefs = gql`
         email: Email
         friends: [Friend]
         account: Int
-        pants: Boolean
+        has_pants: Boolean
         job: String
         life: Life
     }
