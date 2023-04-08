@@ -7,6 +7,7 @@ const typeDefs = gql`
         avatar: String
         friends: [User]
     }
+    
     type Email {
         server: String
     }
