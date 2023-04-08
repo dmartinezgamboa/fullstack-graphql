@@ -4,10 +4,14 @@ const { ApolloServer } = require("apollo-server");
 const typeDefs = gql`
     type User {
         id: Int
+        albums: [Album]
+        apartment: Boolean
         avatar: Avatar
         email: Email
+        education: String
         friends: [Friend]
         account: Int
+        has_bike: Boolean
         has_pants: Boolean
         job: String
         life: Life
@@ -15,9 +19,6 @@ const typeDefs = gql`
         watches_tv: Boolean
         weight: Int
         pets: [Pet]
-        has_bike: Boolean
-        albums: [Album]
-        apartment: Boolean
     }
     
     type Album {
