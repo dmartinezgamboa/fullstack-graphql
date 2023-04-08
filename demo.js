@@ -13,6 +13,7 @@ const typeDefs = gql`
         life: Life
         work_from_home: Boolean
         watches_tv: Boolean
+        pets: [Pet]
     }
     
     type Friend {
@@ -24,6 +25,10 @@ const typeDefs = gql`
     }
     
     type Avatar {
+        species: String
+    }
+    
+    type Pet {
         species: String
     }
     
