@@ -11,6 +11,7 @@ const typeDefs = gql`
         has_pants: Boolean
         job: String
         life: Life
+        work_from_home: Boolean
         watches_tv: Boolean
     }
     
