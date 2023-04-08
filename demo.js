@@ -8,6 +8,7 @@ const typeDefs = gql`
         friends: [Friend]
         account: Int
         pants: Boolean
+        job: String
     }
     
     type Friend {
