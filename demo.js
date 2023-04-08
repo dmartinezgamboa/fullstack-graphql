@@ -6,6 +6,7 @@ const typeDefs = gql`
         email: Email
         avatar: String
         friends: [User]
+        account: Int
     }
     
     type Email {
