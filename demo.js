@@ -3,6 +3,7 @@ const { ApolloServer } = require("apollo-server");
 
 const typeDefs = gql`
     type User {
+        id: Int
         avatar: Avatar
         email: Email
         friends: [Friend]
