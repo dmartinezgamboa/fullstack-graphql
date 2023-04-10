@@ -19,6 +19,8 @@ const typeDefs = gql`
         watches_tv: Boolean
         weight: Int
         pets: [Pet]
+        has_bike: Boolean
+        sock_size: Int
     }
     
     type Album {
