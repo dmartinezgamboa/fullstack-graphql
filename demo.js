@@ -10,6 +10,7 @@ const typeDefs = gql`
         email: Email
         education: String
         friends: [Friend]
+        glasses: Boolean
         account: Int
         has_bike: Boolean
         has_pants: Boolean
